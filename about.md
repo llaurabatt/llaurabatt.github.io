@@ -15,6 +15,4 @@ Research areas:
 - Probabilistic modeling and uncertainty quantification
 - Robust and interpretable deep learning
 
-If you’d like this page to include a short bio, affiliations, or contact details, send me the text and I’ll drop it in.
-
 [← Back to home](/)
