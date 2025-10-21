@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
 title: Laura Battaglia
-description: Research in machine learning, Bayesian inference
+description: Machine Learning Researcher
+# Exclude files not needed in the generated site
+exclude:
+  - index.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore

@@ -11,18 +11,18 @@ layout: none
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   </head>
   <body>
     <main class="hero">
       <section class="card" role="region" aria-label="Landing profile">
-        <img class="avatar" src="/me2.jpeg" alt="Portrait of {{ site.title | default: 'Laura Battaglia' }}" />
+  <img class="avatar" src="{{ '/me2.jpeg' | relative_url }}" alt="Portrait of {{ site.title | default: 'Laura Battaglia' }}" />
         <h1 class="name">{{ site.title | default: 'Laura Battaglia' }}</h1>
         <p class="tagline">{{ site.description | default: '' }}</p>
         <nav class="buttons" aria-label="Primary">
-          <a class="btn" href="/about/">About</a>
-          <a class="btn" href="/cv.pdf">CV</a>
-          <a class="btn" href="https://scholar.google.com/citations?user=REPLACE_ME" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a class="btn" href="{{ '/about/' | relative_url }}">About</a>
+          <a class="btn" href="{{ '/CV_Laura-1.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
+          <a class="btn" href="https://scholar.google.com/citations?user=IR5S8U4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           <a class="btn" href="https://www.linkedin.com/in/REPLACE_ME" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a class="btn" href="https://github.com/llaurabatt" target="_blank" rel="noopener noreferrer">GitHub</a>
         </nav>
