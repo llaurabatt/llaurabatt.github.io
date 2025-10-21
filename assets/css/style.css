@@ -7,7 +7,7 @@
   --btn-bg: rgba(255, 255, 255, 0.8);
   --btn-border: rgba(0, 0, 0, 0.08);
   --btn-hover: #111827;
-}
+
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
@@ -16,7 +16,20 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
   color: var(--text);
-  background: linear-gradient(var(--bg-wash), var(--bg-wash)), url('/tree.svg') center bottom / cover no-repeat fixed;
+  background: url('/tree.svg') center bottom / cover no-repeat fixed;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  backdrop-filter: blur(14px);
+  pointer-events: none;
 }
 
 .hero {
@@ -32,7 +45,12 @@ body {
   align-items: center;
   gap: 16px;
   text-align: center;
-  backdrop-filter: saturate(110%);
+  background: rgba(255,255,255,0.97);
+  border-radius: 24px;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.08);
+  padding: 32px;
+  position: relative;
+  z-index: 1;
 }
 
 .avatar {
