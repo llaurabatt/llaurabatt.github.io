@@ -1,0 +1,32 @@
+---
+layout: none
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ site.title | default: "Home" }}</title>
+    <meta name="description" content="{{ site.description | default: '' }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <section class="card" role="region" aria-label="Landing profile">
+        <img class="avatar" src="/me2.jpeg" alt="Portrait of {{ site.title | default: 'Laura Battaglia' }}" />
+        <h1 class="name">{{ site.title | default: 'Laura Battaglia' }}</h1>
+        <p class="tagline">{{ site.description | default: '' }}</p>
+        <nav class="buttons" aria-label="Primary">
+          <a class="btn" href="/about/">About</a>
+          <a class="btn" href="/cv.pdf">CV</a>
+          <a class="btn" href="https://scholar.google.com/citations?user=REPLACE_ME" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a class="btn" href="https://www.linkedin.com/in/REPLACE_ME" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn" href="https://github.com/llaurabatt" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+      </section>
+    </main>
+  </body>
+</html>
