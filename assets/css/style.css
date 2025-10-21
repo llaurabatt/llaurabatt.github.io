@@ -108,6 +108,45 @@ body {
   transform: translateY(-2px) scale(1.08);
 }
 
+/* Prevent SVG/img icons from turning black on hover */
+.btn img.icon,
+.btn svg {
+  filter: none !important;
+  transition: none;
+}
+.btn:hover img.icon,
+.btn:hover svg {
+  filter: none !important;
+  transition: none;
+}
+
+/* About and CV: neutral, not logo style */
+.btn.about .icon, .btn.cv .icon {
+  background: #e5e7eb;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #374151;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+}
+.btn.about .icon svg, .btn.cv .icon svg {
+  display: none;
+}
+.btn.about .icon::after {
+  content: 'i';
+  font-family: Inter, Arial, sans-serif;
+}
+.btn.cv .icon::after {
+  content: 'CV';
+  font-family: Inter, Arial, sans-serif;
+}
+}
+
 .btn:hover {
   transform: translateY(-1px);
   color: white;
