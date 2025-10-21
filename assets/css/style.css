@@ -39,6 +39,8 @@ body {
   display: grid;
   place-items: center;
   padding: 32px;
+  position: relative;
+  z-index: 1;
 }
 
 .card {
@@ -48,6 +50,8 @@ body {
   gap: 16px;
   text-align: center;
   padding: 32px;
+  position: relative;
+  z-index: 1;
 }
 
 .avatar {
