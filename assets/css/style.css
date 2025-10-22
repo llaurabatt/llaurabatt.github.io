@@ -10,7 +10,7 @@
 }
 
 .btn.about .icon, .btn.cv .icon {
-  background: #fff !important;
+  background: transparent !important;
   color: #fff !important;
   border-radius: 50%;
   width: 32px;
@@ -194,18 +194,6 @@ body {
 /* Remove fallback text for About icon only */
 .btn.about .icon::after {
   display: none !important;
-}
-.btn.cv .icon::after {
-  content: 'CV';
-  font-family: Inter, Arial, sans-serif;
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
 }
 .icon img {
   width: 100%;
