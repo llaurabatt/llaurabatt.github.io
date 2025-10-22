@@ -171,7 +171,22 @@ body {
 .btn.about .icon svg, .btn.cv .icon svg {
   display: none;
 }
-/* Remove fallback text for CV icon */
+/* Remove fallback text for About icon only */
+.btn.about .icon::after {
+  display: none !important;
+}
+.btn.cv .icon::after {
+  content: 'CV';
+  font-family: Inter, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
 .icon img {
   width: 100%;
   height: 100%;
