@@ -107,12 +107,21 @@ body {
 }
 
 .tagline {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.85);
+  border-radius: 999px;
+  background: rgba(0,0,0,0.28);    /* optional: helps contrast on photos */
+  backdrop-filter: blur(2px);      /* optional: if you want glassy feel */
+}
+
+/* .tagline {
   margin: 0 0 8px;
   font-size: 1rem;
   color: #fff;
   font-weight: 300;
   text-shadow: 0 2px 8px rgba(0,0,0,0.32), 0 1px 0 rgba(0,0,0,0.18);
-}
+} */
 
 .buttons {
   display: flex;
