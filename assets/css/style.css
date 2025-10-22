@@ -1,5 +1,5 @@
 .btn.about .icon, .btn.cv .icon {
-  background: #111 !important;
+  background: #fff !important;
   color: #fff !important;
   border-radius: 50%;
   width: 32px;
@@ -9,6 +9,7 @@
   justify-content: center;
   /* font-size and font-weight removed to prevent text fallback */
   box-shadow: 0 0 0 6px #f3f4f6;
+  /* Revert to default, no extra background or padding */
   border: none !important;
 }
 /* Global layout */
