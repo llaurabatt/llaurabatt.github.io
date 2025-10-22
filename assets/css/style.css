@@ -22,10 +22,11 @@ body {
 
 .background-tree-blur {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  top: 50%;
+  left: 50%;
+  width: 104vw;
+  height: 104vh;
+  transform: translate(-50%, -50%);
   z-index: 0;
   background: url('/tree_brown.svg') center bottom / cover no-repeat fixed;
   filter: blur(5px);
@@ -60,7 +61,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   background: #fff;
-  border: 2px solid rgba(255,255,255,0.9);
+  border: 1px solid rgba(255,255,255,0.9);
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   padding: 10px;
 }
