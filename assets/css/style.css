@@ -75,7 +75,6 @@ body {
   border-radius: 50%;
   object-fit: cover;
   background: #fff;
-  border: 1px solid #fff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   padding: 10px;
 }
