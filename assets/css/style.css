@@ -1,12 +1,12 @@
 /* Style links in the About section */
 .tagline a {
-  color: var(--btn-hover);
+  color: #059669;
   text-decoration: underline;
   transition: color 0.15s;
 }
 .tagline a:hover, .tagline a:focus {
   color: #059669;
-  background: #096346;
+  background: #fff2;
 }
 .btn.about .icon, .btn.cv .icon {
   background: #fff !important;
