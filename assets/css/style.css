@@ -131,7 +131,7 @@ body {
   min-height: 44px;
   border-radius: 50%;
   background: var(--btn-bg);
-  border: 1px solid var(--btn-border);
+  /* border: 1px solid var(--btn-border); */
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   display: flex;
   align-items: center;
