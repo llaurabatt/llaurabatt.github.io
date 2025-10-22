@@ -172,10 +172,6 @@ body {
 .btn.about .icon svg, .btn.cv .icon svg {
   display: none;
 }
-.btn.about .icon::after {
-  content: 'i';
-  font-family: Inter, Arial, sans-serif;
-}
 .btn.cv .icon::after {
   content: 'CV';
   font-family: Inter, Arial, sans-serif;
