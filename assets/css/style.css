@@ -210,8 +210,8 @@ body {
   .btn { padding: 9px 14px; font-size: 0.95rem; }
 }
 
-.btn.about, .btn.cv {
+/* .btn.about, .btn.cv {
   background: #111 !important;
   color: #fff !important;
-}
+} */
 
