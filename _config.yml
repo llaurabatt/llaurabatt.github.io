@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Laura Battaglia
-description: Machine Learning Researcher
+description: PhD student in statistics and machine learning
 # Exclude files not needed in the generated site
 exclude:
   - index.md

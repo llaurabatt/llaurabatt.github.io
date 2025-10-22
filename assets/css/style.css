@@ -80,13 +80,21 @@ body {
   border: none !important;
 }
 
-.name {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.38), 0 1px 0 rgba(0,0,0,0.22);
-}
+  .name {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow:
+      2px 0 0 #000,
+      -2px 0 0 #000,
+      0 2px 0 #000,
+      0 -2px 0 #000,
+      1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000;
+  }
 
 .tagline {
   margin: 0 0 8px;
