@@ -1,3 +1,17 @@
+.btn.about .icon, .btn.cv .icon {
+  background: #111 !important;
+  color: #fff !important;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: 1px solid #222;
+  box-shadow: 0 0 0 6px #f3f4f6;
+}
 /* Global layout */
 :root {
   /* Lower opacity = less wash = background photo shows more */
