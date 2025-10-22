@@ -5,4 +5,4 @@ I’m broadly interested in statistical methodology, with experience at the inte
 - bayesian robustness & model misspecification, and
 - flow-based generative modelling.
 
-Before my PhD, I spent several years at the [European Central Bank](https://www.bankingsupervision.europa.eu/home/html/index.en.html) as a banking supervisor and worked as a research assistant for [Prof. Stephen Hansen](https://sekhansen.github.io/).
+Before my PhD, I spent several years at the [European Central Bank](https://www.bankingsupervision.europa.eu/home/html/index.en.html) as a banking supervisor and worked as a research assistant for [Prof. Stephen Hansen](https://sekhansen.github.io/) (UCL).
