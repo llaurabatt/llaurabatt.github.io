@@ -21,7 +21,7 @@
   --btn-bg: rgba(255, 255, 255, 0.8);
   --btn-border: rgba(0, 0, 0, 0.08);
   --btn-hover: #111827;
-
+}
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
@@ -194,7 +194,7 @@ body {
   object-fit: contain;
   display: block;
 }
-}
+
 
 .btn:hover {
   transform: translateY(-1px);
