@@ -8,7 +8,7 @@
   color: #059669;
   background: #fff2;
 }
-.btn.about .icon, .btn.cv .icon {
+/* .btn.about .icon, .btn.cv .icon {
   background: #fff !important;
   color: #fff !important;
   border-radius: 50%;
@@ -21,7 +21,7 @@
   box-shadow: 0 0 0 6px #f3f4f6;
   /* Revert to default, no extra background or padding */
   border: none !important;
-}
+} */
 /* Global layout */
 :root {
   /* Lower opacity = less wash = background photo shows more */
@@ -236,11 +236,3 @@ body {
   font-weight: 500;
   border: 1px solid #222;
 }
-/* .name {
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.28), 0 1px 0 rgba(0,0,0,0.18);
-}
-.tagline {
-  color: #fff !important;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.22), 0 1px 0 rgba(0,0,0,0.14);
-} */
