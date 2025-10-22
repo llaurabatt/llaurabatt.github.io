@@ -9,7 +9,6 @@
   justify-content: center;
   font-size: 1.1rem;
   font-weight: 500;
-  border: 1px solid #222;
   box-shadow: 0 0 0 6px #f3f4f6;
 }
 /* Global layout */
@@ -218,5 +217,5 @@ body {
   color: #fff;
 }
 .tagline {
-  color: #fff;
+  color: #fff !important;
 }
