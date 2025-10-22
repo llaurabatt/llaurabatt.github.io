@@ -17,11 +17,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-size and font-weight removed to prevent text fallback */
   box-shadow: 0 0 0 6px #f3f4f6;
-  /* Revert to default, no extra background or padding */
   border: none !important;
 } */
+
 /* Global layout */
 :root {
   /* Lower opacity = less wash = background photo shows more */
