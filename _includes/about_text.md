@@ -2,7 +2,7 @@ Hi, I’m Laura! I am a PhD student in statistics and machine learning at the [D
 I’m broadly interested in statistical methodology, with current work at the intersection of:
 
 - Approximate inference and Monte Carlo methods
-- Bayesian robustness \& model misspecification
+- Bayesian robustness & model misspecification
 - Flow-based generative modelling
 
 Before my PhD, I spent several years at the European Central Bank as a banking supervisor and worked as a research assistant for [Prof. Stephen Hansen](https://sekhansen.github.io/).
