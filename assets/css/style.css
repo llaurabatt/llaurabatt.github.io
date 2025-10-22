@@ -76,7 +76,7 @@ body {
   object-fit: cover;
   background: #fff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  padding: 10px;
+  padding: 1px;
   border: none !important;
 }
 
