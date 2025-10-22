@@ -8,7 +8,8 @@
   color: #059669;
   background: #fff2;
 }
-/* .btn.about .icon, .btn.cv .icon {
+
+.btn.about .icon, .btn.cv .icon {
   background: #fff !important;
   color: #fff !important;
   border-radius: 50%;
@@ -19,7 +20,7 @@
   justify-content: center;
   box-shadow: 0 0 0 6px #f3f4f6;
   border: none !important;
-} */
+}
 
 /* Global layout */
 :root {
@@ -222,7 +223,7 @@ body {
   background: #111 !important;
   color: #fff !important;
 }
-.btn.about .icon, .btn.cv .icon {
+/* .btn.about .icon, .btn.cv .icon {
   background: #111 !important;
   color: #fff !important;
   border-radius: 50%;
@@ -234,4 +235,4 @@ body {
   font-size: 1.1rem;
   font-weight: 500;
   border: 1px solid #222;
-}
+} */
