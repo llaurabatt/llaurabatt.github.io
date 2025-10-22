@@ -7,8 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
-  font-weight: 500;
+  /* font-size and font-weight removed to prevent text fallback */
   box-shadow: 0 0 0 6px #f3f4f6;
   border: none !important;
 }
@@ -172,9 +171,12 @@ body {
 .btn.about .icon svg, .btn.cv .icon svg {
   display: none;
 }
-.btn.cv .icon::after {
-  content: 'CV';
-  font-family: Inter, Arial, sans-serif;
+/* Remove fallback text for CV icon */
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 }
 
