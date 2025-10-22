@@ -10,6 +10,7 @@
   font-size: 1.1rem;
   font-weight: 500;
   box-shadow: 0 0 0 6px #f3f4f6;
+  border: none !important;
 }
 /* Global layout */
 :root {
@@ -74,7 +75,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   background: #fff;
-  border: 1px solid rgba(255,255,255,0.9);
+  border: 0.5px solid rgba(255,255,255,0.9);
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   padding: 10px;
 }
@@ -215,7 +216,9 @@ body {
 }
 .name {
   color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.28), 0 1px 0 rgba(0,0,0,0.18);
 }
 .tagline {
   color: #fff !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.22), 0 1px 0 rgba(0,0,0,0.14);
 }
