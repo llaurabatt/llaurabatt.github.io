@@ -181,7 +181,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  .avatar { width: 180px; height: 180px; padding: 24px; }
+  .avatar { width: 180px; height: 180px; padding: 24px; border: none !important; }
   .name { font-size: 1.6rem; }
   .btn { padding: 9px 14px; font-size: 0.95rem; }
 }
