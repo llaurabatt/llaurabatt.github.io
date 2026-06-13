@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- bell -->
+  <path d="M12,54 C10,24 28,4 50,4 C72,4 90,24 88,54 Q50,64 12,54 Z"
+        fill="none" stroke="#1B2B4B" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- highlight inside bell -->
+  <path d="M57,18 Q70,14 75,30"
+        fill="none" stroke="#1B2B4B" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- tentacles -->
+  <path d="M23,61 C20,69 26,75 22,83 C18,91 23,96 21,103"
+        fill="none" stroke="#1B2B4B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M36,64 C33,73 38,79 35,87 C32,95 37,100 35,107"
+        fill="none" stroke="#1B2B4B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M50,65 C47,74 52,80 49,88 C46,96 51,101 49,108"
+        fill="none" stroke="#1B2B4B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M64,64 C67,73 62,79 65,87 C68,95 63,100 65,107"
+        fill="none" stroke="#1B2B4B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M77,61 C80,69 74,75 78,83 C82,91 77,96 79,103"
+        fill="none" stroke="#1B2B4B" stroke-width="5" stroke-linecap="round"/>
+</svg>

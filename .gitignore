@@ -1,0 +1,12 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Claude context files (personal working files)
+.claude/scratchpad.md
+.claude/handoff.md
+.claude/errors.md
+.claude/activity.log
+.claude/archive/
+.claude/learnings.md
