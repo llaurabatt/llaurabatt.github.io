@@ -1,26 +1,32 @@
 ---
+layout: none
 ---
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-  </head>
-  <body>
-    <div class="background-tree-blur"></div>
-    <main class="hero">
-      <section class="card" role="region" aria-label="About" style="background: rgba(17,17,17,0.85); border-radius: 24px; box-shadow: 0 4px 32px 0 rgba(0,0,0,0.12); padding: 48px 64px; max-width: 900px; margin: auto;">
-        <h1 class="name" style="font-size:2.6em; margin-bottom: 0.5em; text-align:center;">About me</h1>
-        <div class="tagline" style="font-size:1.35em; line-height:1.6; text-align:left; max-width:700px; margin:0 auto;">
-          {% capture about_md %}{% include about_text.md %}{% endcapture %}
-          {{ about_md | markdownify }}
-        </div>
-        <div style="text-align:center;">
-          <a href="/" class="btn" style="display:inline-block;margin-top:2.5em;padding:18px 38px;font-size:1.3em;border-radius:999px;background:#111;color:#fff;text-decoration:none;transition:background 0.2s; font-weight:700; border:2px solid #fff; box-shadow:0 2px 12px rgba(0,0,0,0.18);">← Back to Home</a>
-        </div>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>About — {{ site.title | default: "Laura Battaglia" }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml"/>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"/>
+</head>
+<body>
+  <canvas id="tree-bg" aria-hidden="true"></canvas>
+  <script src="{{ '/assets/js/tree.js' | relative_url }}"></script>
+  <main class="hero">
+    <section class="about-card" role="region" aria-label="About">
+      <h1>About me</h1>
+      <div class="about-body">
+        {% capture about_md %}{% include about_text.md %}{% endcapture %}
+        {{ about_md | markdownify }}
+      </div>
+      <div style="text-align:center;">
+        <a href="{{ '/' | relative_url }}" class="back-btn">← Back</a>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
