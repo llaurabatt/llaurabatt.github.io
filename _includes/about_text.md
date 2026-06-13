@@ -1,8 +1,9 @@
-I am a PhD student in statistics and machine learning at the [Department of Statistics of the University of Oxford](https://www.stats.ox.ac.uk/), under the supervision of [Prof. Geoff Nicholls](https://www.stats.ox.ac.uk/people/geoff-nicholls).
-I’m broadly interested in statistical methodology, with experience at the intersection of
+I am a Clarendon Scholar and PhD researcher at the [Department of Statistics, University of Oxford](https://www.stats.ox.ac.uk/), supervised by [Prof. Geoff Nicholls](https://www.stats.ox.ac.uk/people/geoff-nicholls).
 
-- approximate inference and Monte Carlo methods,
-- bayesian robustness & model misspecification, and
-- flow-based generative modelling.
+My research focuses on scalable probabilistic machine learning, at the intersection of:
 
-Before my PhD, I spent several years at the [European Central Bank](https://www.bankingsupervision.europa.eu/home/html/index.en.html) as a banking supervisor and worked as a research assistant for [Prof. Stephen Hansen](https://sekhansen.github.io/) (UCL).
+- approximate and robust Bayesian inference: variational methods, generalised Bayes, and prediction-based inference
+- flow and diffusion-based generative modelling
+- applications to causal inference
+
+Before my PhD, I worked as a ML research assistant for [Prof. Stephen Hansen](https://sekhansen.github.io/) (UCL), and spent several years at the [European Central Bank](https://www.bankingsupervision.europa.eu/) as a banking supervisor.

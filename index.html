@@ -3,51 +3,48 @@ layout: none
 ---
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ site.title | default: "Home" }}</title>
-    <meta name="description" content="{{ site.description | default: '' }}" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-  </head>
-  <body>
-    <div class="background-tree-blur"></div>
-    <main class="hero">
-      <section class="card" role="region" aria-label="Landing profile">
-  <img class="avatar" src="{{ '/me7.jpeg' | relative_url }}" alt="Portrait of {{ site.title | default: 'Laura Battaglia' }}" />
-        <h1 class="name">{{ site.title | default: 'Laura Battaglia' }}</h1>
-        <p class="tagline">{{ site.description | default: '' }}</p>
-        <nav class="buttons" aria-label="Primary">
-          <a class="btn about" href="{{ '/about.html' | relative_url }}">
-            <span class="icon">
-              <img src="{{ '/information.png' | relative_url }}" alt="About" width="32" height="32" />
-            </span>
-          </a>
-          <a class="btn cv" href="{{ '/CV_Oct2025.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-            <span class="icon">
-              <img src="{{ '/cv.png' | relative_url }}" alt="CV" width="32" height="32" />
-            </span>
-          </a>
-          <a class="btn email" href="mailto:battaglia@stats.ox.ac.uk">
-            <span class="icon">
-              <img src="{{ '/email.png' | relative_url }}" alt="Email" width="32" height="32" />
-            </span>
-          </a>
-          <a class="btn scholar" href="https://scholar.google.com/citations?user=IR5S8U4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">
-            <img class="icon" src="{{ '/GoogleScholarSquare.svg' | relative_url }}" alt="Google Scholar" width="32" height="32" />
-          </a>
-          <a class="btn linkedin" href="https://www.linkedin.com/in/laura-battaglia-05bb5980/" target="_blank" rel="noopener noreferrer">
-            <img class="icon" src="{{ '/linkedin.png' | relative_url }}" alt="LinkedIn" width="32" height="32" />
-          </a>
-          <a class="btn github" href="https://github.com/llaurabatt" target="_blank" rel="noopener noreferrer">
-            <img class="icon" src="{{ '/github-mark.svg' | relative_url }}" alt="GitHub" width="32" height="32" />
-          </a>
-        </nav>
-        </nav>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ site.title | default: "Laura Battaglia" }}</title>
+  <meta name="description" content="{{ site.tagline | default: '' }} — {{ site.affiliation | default: '' }}"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml"/>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"/>
+</head>
+<body>
+  <canvas id="tree-bg" aria-hidden="true"></canvas>
+  <script src="{{ '/assets/js/tree.js' | relative_url }}"></script>
+  <main class="hero">
+    <section class="card" role="region" aria-label="Profile">
+      <img class="avatar" src="{{ '/assets/images/me7.jpeg' | relative_url }}" alt="Portrait of {{ site.title | default: 'Laura Battaglia' }}"/>
+      <h1 class="name">{{ site.title | default: "Laura Battaglia" }}</h1>
+      <div class="divider"></div>
+      <p class="tagline">{{ site.tagline | default: "" }}</p>
+      <p class="affiliation">{{ site.affiliation | default: "" }}</p>
+      <nav class="buttons" aria-label="Primary links">
+        <a class="btn" href="{{ '/about.html' | relative_url }}" title="About">
+          <img src="{{ '/assets/images/information.png' | relative_url }}" alt="About"/>
+        </a>
+        <a class="btn" href="{{ '/assets/docs/CV_Jun2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" title="CV">
+          <img src="{{ '/assets/images/cv.png' | relative_url }}" alt="CV"/>
+        </a>
+        <a class="btn" href="mailto:battaglia@stats.ox.ac.uk" title="Email">
+          <img src="{{ '/assets/images/email.png' | relative_url }}" alt="Email"/>
+        </a>
+        <a class="btn" href="https://scholar.google.com/citations?user=IR5S8U4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+          <img src="{{ '/assets/images/GoogleScholarSquare.svg' | relative_url }}" alt="Google Scholar"/>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/laura-battaglia-05bb5980/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <img src="{{ '/assets/images/linkedin.png' | relative_url }}" alt="LinkedIn"/>
+        </a>
+        <a class="btn" href="https://github.com/llaurabatt" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <img src="{{ '/assets/images/github-mark.svg' | relative_url }}" alt="GitHub"/>
+        </a>
+      </nav>
+    </section>
+  </main>
+</body>
 </html>

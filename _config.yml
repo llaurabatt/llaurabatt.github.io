@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Laura Battaglia
-description: PhD student in statistics and machine learning
+tagline:     Probabilistic ML & Bayesian inference
+affiliation: PhD Researcher, University of Oxford
 # Exclude files not needed in the generated site
 exclude:
   - index.md
